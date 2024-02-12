@@ -1,7 +1,7 @@
 # My Web Resume
 
 ## Author
-Logan (Praz18)
+Logan (Praz18): logandprasczewicz@lewisu.edu
 
 ## Credits
 Credits to Eric Pogue for Template. Credits to GitHub and Azure for hosting the site.
