@@ -4,17 +4,19 @@
     <meta charset="UTF-8" >
     <title>Prasczewicz Web Resume</title>
 	<style type="text/css" media="print">
-   	@media print {
-       		@page {
-            		margin-top: 0.1;
-            		margin-bottom: 0.1;
-		}
-		body {
-			padding-top: 72px;
-           		padding-bottom: 72px ;
-			margin: 1.6cm;
-        	}
-       	}
+   	@page {
+  		margin: 0;
+	}
+	@media print {
+  		footer {
+    			position: fixed;
+    			bottom: 0;
+  		}
+  		header {
+    			position: fixed;
+    			top: 0;
+  		}
+	}
         body {
 	    font-family: Garamond, serif;
             background-color: #fff;
